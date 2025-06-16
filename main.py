@@ -41,7 +41,7 @@ if st.button("🔍 判定する"):
         }
 
         data = {
-            "model": "accounts/fireworks/models/claude-3-sonnet",
+            "model": "accounts/fireworks/models/claude-3-sonnet:20240229",
             "messages": [
                 {"role": "system", "content": "あなたはプロパンガスの切替NG判定を行う専門AIです。"},
                 {"role": "user", "content": prompt}
