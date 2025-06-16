@@ -39,6 +39,7 @@ if st.button("🔍 判定する"):
             "Authorization": f"Bearer {FIREWORKS_API_KEY}",
             "Content-Type": "application/json"
         }
+        url = "https://api.fireworks.ai/inference/v1/chat/completions"
 
         data = {
             "model": "accounts/fireworks/models/claude-3-sonnet:20240229",
