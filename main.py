@@ -42,7 +42,7 @@ if st.button("🔍 判定する"):
         url = "https://api.fireworks.ai/inference/v1/chat/completions"
 
         data = {
-           "model": "accounts/fireworks/models/mistral-7b-instruct",
+           "model": "accounts/fireworks/models/mistral-7b-instruct-v3",
             "messages": [
                 {"role": "system", "content": "あなたはプロパンガスの切替NG判定を行う専門AIです。"},
                 {"role": "user", "content": prompt}
